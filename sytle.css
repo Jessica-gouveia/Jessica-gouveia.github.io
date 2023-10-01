@@ -1,0 +1,430 @@
+:root{
+    --primary-color: #FFC0CB;
+    --second-color:#FF69B4;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+    background-image: url(imagem/bolha735.jpg);
+    height: 34.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    min-height: 100vh;
+    line-height: 1.7;
+
+    
+}
+
+.header-container{
+    display: flex;
+    background-color:#FF00FF;
+    padding: .5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 1em;
+    height: 62px;
+    mix-blend-mode: multiply;
+
+}
+
+.hero-content{
+    margin: 100px auto 0; 
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 6em;
+    text-shadow: 2px 2px 2px rgb(248, 161, 202) ;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #FF69B4;
+
+}
+
+.hero-content p{
+    background-color: rgba(252, 98, 175, 0.7);
+    font-size: 1em;
+    display: inline-block;
+    padding: 1em;
+    border-bottom: 2px solid;
+
+}
+
+
+
+.header_nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1em;
+    gap: 1em;
+}
+
+.header_nav a{
+    color: white;
+    text-decoration: none;
+    padding: .5em;
+    border-radius: 6px;
+}
+
+.header_nav ul a:hover,
+.header_nav ul a:focus{
+    background-color: 	#FF1493;
+    padding: 1rem;
+}
+
+.main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+
+}
+
+/*Sobre mim*/
+
+.text{
+    padding-top: 32px;
+    color: 	#FF00FF;
+}
+
+.pessoa{
+    display: flex;
+    gap: 7rem;
+    padding-top: 6rem;
+}
+
+.about-title{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    color: #FF69B4;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.pessoa p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    
+}
+
+
+
+.wrapperContainer-padded{
+    padding-top: 12rem;
+}
+
+.wrapperContainer{
+    padding-top: 0.3em;
+    margin: 1em;
+}
+
+.wrapperContainer-dark2{
+    background-color: var(--primary-color);
+    color: #C71585;
+    letter-spacing: 1.3px;
+}
+
+.about img{
+    border-radius: 100px;
+    width: 400px;
+    height: 350px;
+    padding: 1em;
+    border: 2px solid pink;
+    
+
+}
+
+.content{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex: content;
+    
+}
+
+.btn button{
+    background-color: 	#FDF5E6;
+    border-radius: 6px;
+    color:#C71585;
+    border: none;
+    font-style: bold;
+    letter-spacing: 2px;
+    padding: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.btn button:hover{
+   background-color: #EE82EE;
+   
+    
+}
+
+
+
+/*Projetos*/
+
+.title-project{
+    color: #FF00FF;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    letter-spacing: 1px;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+.project-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFC0CB;
+    max-height: 100vh;
+    margin: 1em;
+    
+    margin-right: 10em;
+    padding: 0.5em;
+
+}
+
+.project-wrapper img{
+    width: 550px;
+    margin: 1em;
+    border-radius: 30px;
+
+}
+
+.about-project{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vh;
+    
+    margin-right: 6em;
+}
+
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    color: #FF00FF;
+
+}
+
+.text{
+    font-size: 1em;
+
+}
+
+.about-project li{
+    margin-left: 3.5em;
+}
+
+.about-project .developer li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.4em;
+    background-color: 	#FFB6C1;
+    box-shadow: 0 0 10px rgb(0, 0, 0 /9%);
+    width: 80px;
+    display: inline-block;
+    color: #FF1493;
+    align-items: center;
+    margin-right: 1em;
+    border-radius: 30px;
+    font-weight: bold;
+    justify-content: center;
+    gap: 0.1em;
+
+
+}
+
+.developer li{
+    display: inline-block;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.link a{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.link-icon a{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.about-project .project-link{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding-bottom: 1em;
+}
+
+.link img{
+    width: 1em;
+    height: 1em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+
+}
+
+.link-icon img{
+    width: 1em;
+    height: 1em;
+    display: flex;
+}
+
+.project-link .link-icon{
+    display: flex;
+
+}
+
+.project-link a:hover{
+    color: #FF1493;
+    animation-duration: 2ms;
+}
+
+
+
+
+/* Formulário*/
+.form-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #FF1493;
+}
+
+form{
+    width: 90%;
+    min-width: 28.12em;
+    max-width: 35em;
+    background-color: 	#FFE4E1;
+    padding: 1em;
+    
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    
+}
+
+label,
+input,
+textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+input, textarea{
+    background-color: #FFC0CB;
+    border: 2px solid transparent;
+    border-bottom-color: #bbb ;
+    padding: .75em;
+    margin: .5em 0 2.5em;
+}
+
+legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: #FF1493  ;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+} 
+
+.contact img{
+    width: 3em;
+    height: 3em;
+    mix-blend-mode: multiply;
+    align-items: center;
+    padding-top: 1em;
+    
+    
+    
+    text-align: center;
+       
+}
+
+.social-media img{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.contact .social-media{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img:hover{
+    background-color: #FFB6C1;
+}
+
+.social-media{
+    letter-spacing: 2px;
+    color:  #FF1493;
+    padding: 0.1em;
+
+}
+
+.success{
+    color: rgb(24, 155, 236);
+}
+
+.error{
+    color: tomato;
+}
+
+.footer{
+    background-color: #FF1493;
+
+}
+
+.footer p{
+    margin-top: 2em;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
