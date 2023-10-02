@@ -5,6 +5,8 @@ class FormSubmit{
         this.options = options;
         this.form = document.querySelector(options.form);
         this.formButton =document.querySelector(options.button);
+        console.log(options);
+
         if(this.form){
             this.url = this.form.getAtribute("action")
         }
@@ -61,11 +63,11 @@ class FormSubmit{
     }
 }
 
-const FormSubmit = new FormSubmit({
+const myFormSubmit = new FormSubmit({
     form: "[data-form]",
     button: "[data-button]",
     success: "<h1 class='success'>Mensagem enviada!</h1>",
     error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
 });
 
-FormSubmit.init();
+myFormSubmit.init();
