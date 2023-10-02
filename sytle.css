@@ -49,9 +49,10 @@ html{
 }
 
 .hero-content h1{
-    font-size: 6em;
+    font-size: 120px;
     text-shadow: 2px 2px 2px rgb(248, 161, 202) ;
     text-transform: uppercase;
+    margin-top: 120px;
     margin-bottom: 0;
     color:	#FF1493;
 
@@ -63,6 +64,7 @@ html{
     display: inline-block;
     padding: 1em;
     border-bottom: 2px solid;
+    margin-top: 60px;
 
 }
 
@@ -108,13 +110,14 @@ html{
     display: flex;
     gap: 7rem;
     padding-top: 6rem;
+    margin-top: 200px;
     
 }
 
 .about-title{
     font-size: 3.2rem;
-    margin-top: 2rem;
-    color: #FF69B4;
+    margin-top: 30px;
+    color:	#FF1493;
     align-items: center;
     letter-spacing: 2px;
 }
@@ -153,6 +156,20 @@ html{
 
 }
 
+.content-about{
+    display: flex;
+    margin-top: 78px;
+}
+
+.content-about img{
+    width: 30%;
+    height: 60% ;
+    border-radius: 80px;
+    padding: 3px;
+}
+
+
+
 .content{
     max-width: 127.6rem;
     margin: auto;
@@ -175,7 +192,7 @@ html{
     letter-spacing: 2px;
     padding: 1em;
     margin-top: 1.2em;
-    margin-bottom: 1em;
+    margin-bottom: 40px;
     cursor: pointer;
 }
 
