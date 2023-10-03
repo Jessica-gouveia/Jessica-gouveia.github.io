@@ -502,7 +502,60 @@ footer p{
     mix-blend-mode: lighten;
 }
 
+@media screen and (max-width: 768px) {
 
+
+    .body{
+        display: block;
+        text-align: center;
+        margin: 0;
+        width: 100vw;
+    }
+
+    .hero-content{
+        
+        text-align: center;
+        display: block;
+        justify-content: center;
+        margin: 0px 0px;
+
+    }
+
+    .hero-content h1{
+        width: 50vw;
+        
+    }
+
+    .hero-content p{
+        text-align: center;
+        margin-left: 120px;
+
+    }
+
+    .main p{
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .contact{
+        display: block;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+        border-top-left-radius: 60px;
+    }
+
+   .project-wrapper{
+    display: inline-block;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+   }
+
+
+    
+}
 
 
 
