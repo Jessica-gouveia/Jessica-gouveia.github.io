@@ -15,9 +15,7 @@ html{
     opacity: 0.9;
     min-height: 100vh;
     line-height: 1.7;
-    width: 100%;
-
-    
+    width: 100%;    
 }
 
 .header-container{
@@ -58,7 +56,6 @@ html{
     margin-bottom: 0;
     color:	#FF1493;
     
-
 }
 
 .hero-content p{
@@ -70,9 +67,7 @@ html{
     margin-top: 60px;
     border-radius: 15px;
     
-
 }
-
 
 
 .header_nav ul{
@@ -100,7 +95,6 @@ html{
     margin: auto;
     max-width: 860px;
     
-
 }
 
 /*Sobre mim*/
@@ -134,7 +128,6 @@ html{
 }
 
 
-
 .wrapperContainer-padded{
     padding-top: 12rem;
     
@@ -157,8 +150,7 @@ html{
     height: 350px;
     padding: 1em;
     border: 2px solid pink;
-    
-
+  
 }
 
 .content-about{
@@ -172,8 +164,6 @@ html{
     border-radius: 80px;
     padding: 3px;
 }
-
-
 
 .content{
     max-width: 127.6rem;
@@ -203,10 +193,8 @@ html{
 
 .btn button:hover{
    background-color: #EE82EE;
-   
-    
+      
 }
-
 
 
 /*Projetos*/
@@ -346,8 +334,6 @@ h4{
 }
 
 
-
-
 /* Formulário*/
 .form-contact{
     display: flex;
@@ -399,13 +385,6 @@ legend{
     letter-spacing: 1.5px;
 } 
 
-/*.social-media img{
-    display: block;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;
-} */
 
 .contact .social-media{
     display: inline-block;
@@ -429,13 +408,11 @@ legend{
     
 }
 
-
 .social-media{
     letter-spacing: 2px;
     color: #f3bfd9;
     margin: 0;
     
-
 }
 
 .success{
@@ -448,15 +425,13 @@ legend{
 
 footer{
     background-color:#FF00FF;
-    bottom: 0;
-    
+    bottom: 0; 
     width: 100%;
     
 }
 
 
 footer p{
-    
     color: #830653;
     
 }
